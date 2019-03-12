@@ -12,6 +12,11 @@ body {
     float: right !important;
     font-weight: bold;
   }
+
+  .autor .fa{
+    color: #f9cf0e;
+    margin-right: 5px;
+  }
   
   /* CUSTOMIZE THE CAROUSEL
   -------------------------------------------------- */
