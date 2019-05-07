@@ -115,7 +115,7 @@
             <!-- Details -->
             <div class="col-lg-6">
                 <div class="contact_details">
-                    <div class="contact_details_title">Detalles de contacto con el departamento cede: Campus Santiago</div>
+                    <div class="contact_details_title">Detalles de contacto con el departamento: Campus Santiago</div>
                     <ul>
                         <li>
                             <svg fill="rgba(0,0,0,0.4)" height="24" viewBox="0 0 24 24" width="24"
@@ -194,22 +194,21 @@
         <div class="footer_body">
             <div class="container">
                 <div class="row">
-    
+
                     <!-- Newsletter -->
                     <div class="col-lg-3 footer_col">
-                        <div class="newsletter_container d-flex flex-column align-items-start justify-content-end">
-                            <div class="footer_logo mb-auto"><a href="#">Lingua</a></div>
-    
-                            <div class="footer_title">Subscribe</div>
-    
-                            <form action="#" id="newsletter_form" class="newsletter_form">
-                                <input type="email" class="newsletter_input" placeholder="Email" required="required">
-                                <button class="newsletter_button"><i class="fa fa-long-arrow-right"
-                                                                     aria-hidden="true"></i></button>
-                            </form>
+                        <div
+                            class="newsletter_container d-flex flex-column align-items-center justify-content-center">
+                            <div class="text-center footer_title"><a target="_blank" href="https://www.pucmm.edu.do" style="text-decoration:none; color:inherit;">Pontificia
+                                    Universidad
+                                    Cat&oacute;lica Madre y Maestra</a></div>
+                            <a target="_blank" href="https://www.pucmm.edu.do">
+
+                                <img class="rounded-circle" width="130" src="images/logo.png">
+                            </a>
                         </div>
                     </div>
-    
+
                     <!-- About -->
                     <div class="col-lg-2 offset-lg-3 footer_col">
                         <div>
@@ -225,9 +224,9 @@
                             </ul>
                         </div>
                     </div>
-    
+
                     <!-- Help & Support -->
-                    <div class="col-lg-2 footer_col">
+                    <!-- <div class="col-lg-2 footer_col">
                         <div class="footer_title">Help & Support</div>
                         <ul class="footer_list">
                             <li><a href="#">Discussions</a></li>
@@ -237,8 +236,8 @@
                             <li><a href="#">Duolingo English Test FAQs</a></li>
                             <li><a href="#">Status</a></li>
                         </ul>
-                    </div>
-    
+                    </div> -->
+
                     <!-- Privacy -->
                     <div class="col-lg-2 footer_col clearfix">
                         <div>
@@ -251,12 +250,12 @@
                             </ul>
                         </div>
                     </div>
-    
+
                 </div>
             </div>
         </div>
-    
-      
+
+
     </footer>
 </div>
 <script src="js/jquery-3.2.1.min.js"></script>
@@ -273,7 +272,7 @@
 
     var marker = new ol.Feature({
         geometry: new ol.geom.Point(
-            ol.proj.fromLonLat([-70.683098, 19.4417])
+            ol.proj.fromLonLat([-70.682944 , 19.441810,]),  
         )
     });
 
@@ -293,8 +292,8 @@
             })
         ],
         view: new ol.View({
-            center: ol.proj.fromLonLat([-70.675582, 19.442862]),
-            zoom: 15
+            center: ol.proj.fromLonLat([-70.682601 , 19.441799]),
+            zoom: 17
         })
     });
 

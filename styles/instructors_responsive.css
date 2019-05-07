@@ -294,8 +294,8 @@
 	}
 	.instructor_image_container
 	{
-		width: 120px;
-		height: 120px;
+		/* width: 120px; */
+		/* height: 120px; */
 		border: solid 8px #ffffff;
 	}
 	.instructor_image
